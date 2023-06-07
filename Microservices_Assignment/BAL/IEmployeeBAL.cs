@@ -5,11 +5,11 @@ namespace Microservices_Assignment.BAL
     public interface IEmployeeBAL
     {
 
-        public ApiResponse<Employee> Get();
-        public ApiResponse<Employee> Get(int id);
-        public Response<Employee> Post( Employee Emp);
-        public Response<Employee> Put(int id,  Employee emp);
-        public Response<Employee> Patch(int id,  string name);
-        public Response<Employee> Delete(int id);       
+        public Task<ApiResponse<Employee>> Get();
+        public Task<ApiResponse<Employee>> Get(int id);
+        public Task<Response<Employee>> Post( Employee Emp);
+        public Task<Response<Employee>> Put(int id,  Employee emp);
+        public Task<Response<Employee>> Patch(int id,  string name);
+        public Task<Response<Employee>> Delete(int id);       
     }
 }

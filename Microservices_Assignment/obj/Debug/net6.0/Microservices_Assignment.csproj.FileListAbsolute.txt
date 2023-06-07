@@ -25,3 +25,30 @@ C:\Subramaniyan_KK\Microservices_Assignment\Microservices_Assignment\obj\Debug\n
 C:\Subramaniyan_KK\Microservices_Assignment\Microservices_Assignment\obj\Debug\net6.0\Microservices_Assignment.pdb
 C:\Subramaniyan_KK\Microservices_Assignment\Microservices_Assignment\obj\Debug\net6.0\Microservices_Assignment.genruntimeconfig.cache
 C:\Subramaniyan_KK\Microservices_Assignment\Microservices_Assignment\obj\Debug\net6.0\ref\Microservices_Assignment.dll
+C:\Subramaniyan_KK\Microservices_Assignment\New folder\Microservices_Assignment\Microservices_Assignment\bin\Debug\net6.0\appsettings.Development.json
+C:\Subramaniyan_KK\Microservices_Assignment\New folder\Microservices_Assignment\Microservices_Assignment\bin\Debug\net6.0\appsettings.json
+C:\Subramaniyan_KK\Microservices_Assignment\New folder\Microservices_Assignment\Microservices_Assignment\bin\Debug\net6.0\Microservices_Assignment.exe
+C:\Subramaniyan_KK\Microservices_Assignment\New folder\Microservices_Assignment\Microservices_Assignment\bin\Debug\net6.0\Microservices_Assignment.deps.json
+C:\Subramaniyan_KK\Microservices_Assignment\New folder\Microservices_Assignment\Microservices_Assignment\bin\Debug\net6.0\Microservices_Assignment.runtimeconfig.json
+C:\Subramaniyan_KK\Microservices_Assignment\New folder\Microservices_Assignment\Microservices_Assignment\bin\Debug\net6.0\Microservices_Assignment.dll
+C:\Subramaniyan_KK\Microservices_Assignment\New folder\Microservices_Assignment\Microservices_Assignment\bin\Debug\net6.0\Microservices_Assignment.pdb
+C:\Subramaniyan_KK\Microservices_Assignment\New folder\Microservices_Assignment\Microservices_Assignment\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Subramaniyan_KK\Microservices_Assignment\New folder\Microservices_Assignment\Microservices_Assignment\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Subramaniyan_KK\Microservices_Assignment\New folder\Microservices_Assignment\Microservices_Assignment\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Subramaniyan_KK\Microservices_Assignment\New folder\Microservices_Assignment\Microservices_Assignment\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Subramaniyan_KK\Microservices_Assignment\New folder\Microservices_Assignment\Microservices_Assignment\obj\Debug\net6.0\Microservices_Assignment.csproj.AssemblyReference.cache
+C:\Subramaniyan_KK\Microservices_Assignment\New folder\Microservices_Assignment\Microservices_Assignment\obj\Debug\net6.0\Microservices_Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Subramaniyan_KK\Microservices_Assignment\New folder\Microservices_Assignment\Microservices_Assignment\obj\Debug\net6.0\Microservices_Assignment.AssemblyInfoInputs.cache
+C:\Subramaniyan_KK\Microservices_Assignment\New folder\Microservices_Assignment\Microservices_Assignment\obj\Debug\net6.0\Microservices_Assignment.AssemblyInfo.cs
+C:\Subramaniyan_KK\Microservices_Assignment\New folder\Microservices_Assignment\Microservices_Assignment\obj\Debug\net6.0\Microservices_Assignment.csproj.CoreCompileInputs.cache
+C:\Subramaniyan_KK\Microservices_Assignment\New folder\Microservices_Assignment\Microservices_Assignment\obj\Debug\net6.0\Microservices_Assignment.MvcApplicationPartsAssemblyInfo.cs
+C:\Subramaniyan_KK\Microservices_Assignment\New folder\Microservices_Assignment\Microservices_Assignment\obj\Debug\net6.0\Microservices_Assignment.MvcApplicationPartsAssemblyInfo.cache
+C:\Subramaniyan_KK\Microservices_Assignment\New folder\Microservices_Assignment\Microservices_Assignment\obj\Debug\net6.0\staticwebassets.build.json
+C:\Subramaniyan_KK\Microservices_Assignment\New folder\Microservices_Assignment\Microservices_Assignment\obj\Debug\net6.0\staticwebassets.development.json
+C:\Subramaniyan_KK\Microservices_Assignment\New folder\Microservices_Assignment\Microservices_Assignment\obj\Debug\net6.0\scopedcss\bundle\Microservices_Assignment.styles.css
+C:\Subramaniyan_KK\Microservices_Assignment\New folder\Microservices_Assignment\Microservices_Assignment\obj\Debug\net6.0\Microservices_Assignment.csproj.CopyComplete
+C:\Subramaniyan_KK\Microservices_Assignment\New folder\Microservices_Assignment\Microservices_Assignment\obj\Debug\net6.0\Microservices_Assignment.dll
+C:\Subramaniyan_KK\Microservices_Assignment\New folder\Microservices_Assignment\Microservices_Assignment\obj\Debug\net6.0\refint\Microservices_Assignment.dll
+C:\Subramaniyan_KK\Microservices_Assignment\New folder\Microservices_Assignment\Microservices_Assignment\obj\Debug\net6.0\Microservices_Assignment.pdb
+C:\Subramaniyan_KK\Microservices_Assignment\New folder\Microservices_Assignment\Microservices_Assignment\obj\Debug\net6.0\Microservices_Assignment.genruntimeconfig.cache
+C:\Subramaniyan_KK\Microservices_Assignment\New folder\Microservices_Assignment\Microservices_Assignment\obj\Debug\net6.0\ref\Microservices_Assignment.dll

@@ -24,12 +24,12 @@ namespace Microservices_Assignment.Controllers
         }
 
         [HttpGet]
-        public ApiResponse<Employee> Get()
+        public async Task<ApiResponse<Employee>> Get()
         {
             ApiResponse<Employee> response = new ApiResponse<Employee>();
             try
             {
-                response= EmpBal.Get();
+                response= await EmpBal.Get();
             }
             catch (Exception ex)
             {
@@ -40,12 +40,12 @@ namespace Microservices_Assignment.Controllers
 
         
         [HttpGet("{id}")]
-        public ApiResponse<Employee> Get(int id)
+        public async Task<ApiResponse<Employee>> Get(int id)
         {
             ApiResponse<Employee> response = new ApiResponse<Employee>();
             try
             {
-                response = EmpBal.Get(id);
+                response = await EmpBal.Get(id);
             }
             catch (Exception ex)
             {
@@ -55,12 +55,12 @@ namespace Microservices_Assignment.Controllers
         }
 
         [HttpPost]
-        public Response<Employee> Post([FromBody] Employee Emp)
+        public async Task<Response<Employee>> Post([FromBody] Employee Emp)
         {
             Response<Employee> response = new Response<Employee>();
             try
             {
-                response = EmpBal.Post(Emp);
+                response =await EmpBal.Post(Emp);
             }
             catch (Exception ex)
             {
@@ -72,12 +72,12 @@ namespace Microservices_Assignment.Controllers
 
      
         [HttpPut("{id}")]
-        public Response<Employee> Put(int id, [FromBody] Employee emp)
+        public async Task<Response<Employee>> Put(int id, [FromBody] Employee emp)
         {
             Response<Employee> response = new Response<Employee>();
             try
             {
-                response = EmpBal.Put(id, emp);
+                response = await EmpBal.Put(id, emp);
             }
             catch (Exception ex)
             {
@@ -87,13 +87,13 @@ namespace Microservices_Assignment.Controllers
         }
 
         [HttpPatch("{id}")]
-        public Response<Employee> Patch(int id, [FromBody] string name)
+        public async Task<Response<Employee>> Patch(int id, [FromBody] string name)
         {
 
             Response<Employee> response = new Response<Employee>();
             try
             {
-                response = EmpBal.Patch(id, name);
+                response = await EmpBal.Patch(id, name);
             }
             catch (Exception ex)
             {
@@ -104,12 +104,12 @@ namespace Microservices_Assignment.Controllers
         }
 
         [HttpDelete("{id}")]
-        public Response<Employee> Delete(int id)
+        public async Task<Response<Employee>> Delete(int id)
         {
             Response<Employee> response = new Response<Employee>();
             try
             {
-                response = EmpBal.Delete(id);
+                response = await EmpBal.Delete(id);
             }
             catch (Exception ex)
             {

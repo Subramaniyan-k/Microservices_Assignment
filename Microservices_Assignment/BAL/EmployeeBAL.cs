@@ -16,7 +16,7 @@ namespace Microservices_Assignment.BAL
             _employee.Add(new Employee { Id = 2, Name = "David" });
             _employee.Add(new Employee { Id = 3, Name = "Hussion" });
         }
-        public ApiResponse<Employee> Get()
+        public async Task<ApiResponse<Employee>> Get()
         {
             ApiResponse<Employee> response = new ApiResponse<Employee>();
             if (_employee.Count > 0)
@@ -31,7 +31,7 @@ namespace Microservices_Assignment.BAL
         }
 
 
-              public ApiResponse<Employee> Get(int id)
+        public async Task<ApiResponse<Employee>> Get(int id)
         {
             var result = _employee.Where(x => x.Id == id).ToList();
 
@@ -46,7 +46,7 @@ namespace Microservices_Assignment.BAL
             return response;
         }
 
-              public Response<Employee> Post( Employee Emp)
+              public async Task<Response<Employee>> Post( Employee Emp)
         {
             var result = _employee.Where(x => x.Id == Emp.Id).ToList();
 
@@ -70,7 +70,7 @@ namespace Microservices_Assignment.BAL
         }
 
       
-        public Response<Employee> Put(int id, Employee emp)
+        public async Task<Response<Employee>> Put(int id, Employee emp)
         {
             var result = _employee.Where(x => x.Id == emp.Id).ToList();
 
@@ -95,7 +95,7 @@ namespace Microservices_Assignment.BAL
             return response;
         }
 
-       public Response<Employee> Patch(int id, string name)
+       public async Task<Response<Employee>> Patch(int id, string name)
         {
 
             var result = _employee.Where(x => x.Id == id).ToList();
@@ -122,7 +122,7 @@ namespace Microservices_Assignment.BAL
         }
 
        
-        public Response<Employee> Delete(int id)
+        public async Task<Response<Employee>> Delete(int id)
         {
             var result = _employee.Where(x => x.Id == id).ToList();
 
